@@ -1,0 +1,9 @@
+.First-div h1{
+    background-color:burlywood;
+    text-decoration: underline;
+    text-align: center;
+}
+.side-bar img{
+    height: 100%;
+    width: 50%;
+}
