@@ -1,9 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box ;
+}
+
 .First-div h1{
-    background-color:burlywood;
+    background: #1d2951;
     text-decoration: underline;
-    text-align: center;
+    padding-left: 30px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    line-height: 80px;   
+    color: white;
+
+
+
 }
-.side-bar img{
+/* .side-bar img{
+    padding: 10%;
     height: 100%;
-    width: 50%;
+    width: 75%;
+} */
+
+.data{
+    background: url(/Web-Dev/images/laptop-image.jpeg);
+    height: 100vh;
+    margin-left: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+.side-bar{
+    position: fixed;
+    background-color: #1d2951;
+    width: 250px;
+    height: 100%;
+    margin-top: 80px;
+}
+.side-bar center img{
+    margin-top: 30px;
+    height: 175px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+
+.side-bar center h2{
+    color: white;
+}
+
+.side-bar a{
+    padding-left: 10px;
+    display: block;
+    line-height: 60px;
+    transition: 0.5s;
+}
+
+.side-bar a:hover{
+    background-color: rgb(20, 54, 165);
+    padding-left: 20px;
+}
+
+.side-bar span{
+    font-size: 20px;
+    margin-left: 10px;
+    color:white
+}
+
+.side-bar i{
+    font-size: 20px;
+    margin-left: 20px;
+    color:white;
+}
+
+#menu{
+    display: none;
+}
+
+
+
+@media(max-width:850px){
+    .side-bar a span{
+        display: none;
+
+    }
+    .side-bar center{
+        display: none;
+
+    }
+    .side-bar{
+        width: 100px;
+    }
+    .side-bar a i{
+        display: block;
+        line-height: 80px;
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+
+    }
+    .data{
+        margin-left: 100px;
+    }
+}
+
+
+ 
