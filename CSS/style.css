@@ -26,7 +26,7 @@
 } */
 
 .data{
-    background: url(/Web-Dev/images/laptop-image.jpeg);
+    background: url(/images/laptop-image.jpeg);
     height: 100vh;
     margin-left: 250px;
     background-size: cover;
